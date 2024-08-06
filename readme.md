@@ -8,4 +8,10 @@ Testing utility for tracking api endpint changes.
 | deep    | [obj: object]                                                      | this function is used to flattern the object to it's inner children.                                                                                                                                                                                                                                                               |
 | read    | [dir:string, index1: number, index2:number]                        | **dir** need to be specify inorder to read the api response.<br />index1 & index2 is optional or can manually specify.                                                                                                                                                                                                       |
 
+## **Get Started**
+```bash
+npm install
+node index.js
+```
+
 > example is inside index.js file
