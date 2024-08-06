@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "author": {
+    "name": "sawissac",
+    "email": "sawissacwaux@gmail.com",
+    "url": "https://github.com/sawissac/api-tracker"
+  },
+  "main": "core.js",
+  "categories": [
+    "Testing",
+    "Formatters",
+    "Linters"
+  ],
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0"
+  }
+}
