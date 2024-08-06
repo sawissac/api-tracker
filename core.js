@@ -150,8 +150,8 @@ export function read(dir, index = 0, index2 = 0) {
 
     if (files.length === 1) throw new Error(dir + " Need at least two compare files!");
 
-    let searchIndex = index === 0 ? files.length : index;
-    let searchIndex2 = index2 === 0 ? files.length - 1 : index2;
+    let searchIndex = index === 0 ? files.length - 1 : index;
+    let searchIndex2 = index2 === 0 ? files.length : index2;
 
     let file1 = files
       .filter((ls) => ls.split(".").at(0) === searchIndex.toString())
